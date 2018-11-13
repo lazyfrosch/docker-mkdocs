@@ -6,6 +6,3 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/*
 
 RUN pip install --no-cache-dir mkdocs MarkdownHighlight
-
-ENTRYPOINT ["mkdocs"]
-CMD []
